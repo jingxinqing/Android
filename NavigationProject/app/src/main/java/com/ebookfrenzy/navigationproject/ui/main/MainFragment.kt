@@ -40,6 +40,8 @@ class MainFragment : Fragment() {
         //val resID = resources.getIdentifier("image1", "drawable", requireContext().packageName)
 
 
+        //sendTitleAndImage("Image 1", R.drawable.image1, it)
+
         binding.button1.setOnClickListener {
             val action: MainFragmentDirections.MainToSecond  =
                 MainFragmentDirections.mainToSecond()

@@ -1,9 +1,6 @@
-package com.ebookfrenzy.recyclerproject
+package com.ebookfrenzy.intentproject
 
-import kotlin.random.Random
-
-class RecyclerData {
-
+class IntentData {
     public val titles = arrayOf("Chapter One",
         "Chapter Two", "Chapter Three", "Chapter Four",
         "Chapter Five", "Chapter Six", "Chapter Seven",
@@ -19,12 +16,5 @@ class RecyclerData {
         R.drawable.android_image_4, R.drawable.android_image_5,
         R.drawable.android_image_6, R.drawable.android_image_7,
         R.drawable.android_image_8)
-
-
-    //public var position1 = Random.nextInt(titles.size)
-    //public var position2 = Random.nextInt(titles.size)
-    //public var position3 = Random.nextInt(titles.size)
-
-
 
 }

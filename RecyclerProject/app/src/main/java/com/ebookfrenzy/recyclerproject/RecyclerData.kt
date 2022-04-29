@@ -21,9 +21,7 @@ class RecyclerData {
         R.drawable.android_image_8)
 
 
-    //public var position1 = Random.nextInt(titles.size)
-    //public var position2 = Random.nextInt(titles.size)
-    //public var position3 = Random.nextInt(titles.size)
+
 
 
 

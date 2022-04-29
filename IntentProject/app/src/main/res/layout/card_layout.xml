@@ -12,11 +12,13 @@
     app:contentPadding="4dp"
     android:foreground="?selectableItemBackground"
     android:clickable="true">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp">
+
         <ImageView
             android:id="@+id/itemImage"
             android:layout_width="100dp"
@@ -24,6 +26,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             android:id="@+id/itemTitle"
             android:layout_width="236dp"
@@ -33,6 +36,7 @@
             app:layout_constraintLeft_toRightOf="@+id/itemImage"
             app:layout_constraintStart_toEndOf="@+id/itemImage"
             app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             android:id="@+id/itemDetail"
             android:layout_width="236dp"
